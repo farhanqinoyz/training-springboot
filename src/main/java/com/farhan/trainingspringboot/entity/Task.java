@@ -32,4 +32,7 @@ public class Task {
 
     @Column(name = "MODIFIED_DATE")
     private Date modifiedDate;
+
+    @Column(name = "USER_ID", length = 60)
+    private String user_id;
 }
